@@ -1,41 +1,33 @@
-# Quark 组件
+## Live demo
 
-基于本工程，您可以构建属于自己的跨技术栈/无框架 组件。并允许被发布到 npm 平台供他人使用。
+https://unpkg.com/quarkc-demo-celebrate@latest/demo.html
 
-## 如何使用
+## Installation
 
+
+Use npm:
 ```
-npm install
-npm run dev
-```
-
-入口文件为 `src/index.tsx`，这里使用 `vite` 进行开发和生产打包。
-
-## 打包产物
-
-```
-npm run build
+npm install --save quarkc-demo-celebrate
 ```
 
-打包后的产出为： `lib/index.js`和`lib/index.umd.cjs`。
-
-## 使用产物
-
-您可以在本地登录 npm 后，在根目录执行 `npm publish`，发布到 `npm` 平台，供他人使用。
-
-
-### 1、安装
-
-```javascript
-npm install quark-my-component
+Use CDN:
+```
+<script src="https://fastly.jsdelivr.net/npm/quarkc@latest"></script>
+<script type="module" src="https://unpkg.com/quarkc-demo-celebrate@latest"></script>
 ```
 
-### 2、使用
-
-无论是`Vue`，`React`，`Angular`还是`Jq`项目，该组件都可以被使用。
-
-```js
-import "quark-my-component/lib/index";
-
-<my-component count="0" />;
+### Usage
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>quark element demo celebrate</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <quarkc-demo-celebrate></quarkc-demo-celebrate>
+  </body>
+  <script src="https://fastly.jsdelivr.net/npm/quarkc@latest"></script>
+  <script src="https://fastly.jsdelivr.net/npm/quarkc-demo-celebrate@0.0.10"></script>
+</html>
 ```

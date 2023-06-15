@@ -1,7 +1,7 @@
 import { QuarkElement } from "quarkc";
 declare global {
     interface HTMLElementTagNameMap {
-        "quark-element-demo-celebrate": MyCeleBrate;
+        "quarkc-demo-celebrate": MyCeleBrate;
     }
 }
 export default class MyCeleBrate extends QuarkElement {

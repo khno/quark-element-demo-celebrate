@@ -1,5 +1,5 @@
 {
-  "name": "quark-element-demo-celebrate",
+  "name": "quarkc-demo-celebrate",
   "version": "0.0.9",
   "keywords": [
     "frontend",
@@ -41,6 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/khno/quark-element-demo-celebrate.git"
+    "url": "https://github.com/khno/quarkc-demo-celebrate.git"
   }
 }

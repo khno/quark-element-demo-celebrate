@@ -3,11 +3,11 @@ import style from "./index.less?inline"
 
 declare global {
   interface HTMLElementTagNameMap {
-    "quark-element-demo-celebrate": MyCeleBrate;
+    "quarkc-demo-celebrate": MyCeleBrate;
   }
 }
 
-@customElement({ tag: "quark-element-demo-celebrate", style })
+@customElement({ tag: "quarkc-demo-celebrate", style })
 export default class MyCeleBrate extends QuarkElement {
 
   ctx: CanvasRenderingContext2D
