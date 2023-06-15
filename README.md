@@ -21,6 +21,11 @@ Use CDN:
 <script type="module" src="https://unpkg.com/quarkc-demo-celebrate@latest"></script>
 ```
 
+然后作为正常标签/组件使用：
+```html
+// 可运行于任何前端框架中
+<quarkc-demo-celebrate><quarkc-demo-celebrate>
+```
 
 ## Build
 
